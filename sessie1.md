@@ -1,26 +1,19 @@
-# Getting started 
-
-## Cloud computing
-
-Cloud computing is het via het internet op aanvraag beschikbaar stellen van hardware, software en gegevens, ongeveer zoals elektriciteit uit het lichtnet. 
-De term is afkomstig uit de schematechnieken uit de informatica, waar een groot, decentraal netwerk (zoals het internet) met behulp van een wolk wordt aangeduid.
-De cloud (Nederlands: wolk) staat voor een netwerk dat met al de computers die erop aangesloten zijn een soort 'wolk van computers' vormt, waarbij de eindgebruiker niet weet op hoeveel of welke computer(s) de software draait of waar die computers precies staan. 
-De gebruiker hoeft op deze manier geen eigenaar meer te zijn van de gebruikte hard- en software en is dus ook niet verantwoordelijk voor het onderhoud. 
-De details van de informatietechnologische infrastructuur worden aan het oog onttrokken en de gebruiker beschikt over een "eigen", in omvang en mogelijkheden schaalbare, virtuele infrastructuur. 
-De cloud is dus een begrip dat onlinediensten aanduidt.
-http://nl.wikipedia.org/wiki/Cloud_computing
-
-## Varianten
-
-De twee belangrijkste spelers zijn: Amazon en Google.
- * http://aws.amazon.com, http://en.wikipedia.org/wiki/Amazon_Web_Services
- * https://cloud.google.com, http://en.wikipedia.org/wiki/Google_Cloud_Platform
-
-http://cloudacademy.com/blog/google-cloud-vs-aws-a-comparison/
-https://cloud.google.com/compute/docs/
+# Google could platform
 
 ## Registratie Google could platform
-https://cloud.google.com/compute/docs/signup
+ * https://cloud.google.com/compute/docs/signup
 
+## 10 Minute demo: Setting up a webserver
+https://cloud.google.com/compute/docs/quickstart
+ * Aanmaken van een Debian gebaseerde virtuele machine op de Google infrastructuur.
+ * Instellen van firewall regels.
+ * Installeren van Webserver.
 
-##
+## Setting up LAMP on Google Compute Engine
+Instaleer een volledige LAMP stack: Linux, the Apache HTTP Server, the MySQL relational database management system, and the PHP programming language
+
+ * https://cloud.google.com/compute/docs/tutorials/lamp/setup-lamp
+ * http://en.wikipedia.org/wiki/LAMP_%28software_bundle%29
+
+# Documentatie
+ * https://cloud.google.com/compute/docs/overview
