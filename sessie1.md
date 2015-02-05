@@ -1,11 +1,11 @@
 # Google could platform
 
-## Registratie Google could platform
+## Registratie Google cloud platform
 Maak een account aan via:
  * https://cloud.google.com/compute/docs/signup
 
 Om de gratis VM instances te activeren moet je een kredietkaart hebben.
-Moest je daar niet over beschikken kan je voor ongeveer 5 euro een virtuele pre-paid krediekaart aanvragen op één van onderstaande websites.
+Moest je daar niet over beschikken kan je voor ongeveer 5 euro een virtuele pre-paid kredietkaart aanvragen op één van onderstaande websites.
  * https://www.entropay.com (opladen vanaf 5 euro)
  * https://vikingcard.com/nl/ (aanvragen van de kaart kost 4.90 euro, mogelijk kan je zonder geld op de kaart te zetten je account bij google activeren)
  * http://www.bpost.be/site/nl/residential/finance/bpaid/
@@ -21,7 +21,7 @@ https://cloud.google.com/compute/docs/quickstart
  * Installeren van Webserver.
 
 ## Setting up LAMP on Google Compute Engine
-Instaleer een volledige LAMP stack: Linux, the Apache HTTP Server, the MySQL relational database management system, and the PHP programming language
+Installeer een volledige LAMP stack: Linux, the Apache HTTP Server, the MySQL relational database management system, and the PHP programming language
 
  * https://cloud.google.com/compute/docs/tutorials/lamp/setup-lamp
  * http://en.wikipedia.org/wiki/LAMP_%28software_bundle%29
