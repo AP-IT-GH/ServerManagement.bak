@@ -46,3 +46,9 @@ Microsoft Azure Platform (voorheen: Windows Azure Platform) is een cloud computi
 Microsoft wil hiermee de concurrentie aangaan met andere cloudsystemen die software as a service (SaaS) aanbieden, zoals Google App Engine van Google en EC2 van Amazon. 
 Deze software hoeft niet geïnstalleerd te worden op de computer van de gebruiker, alles gebeurt via het web. Ook toegang tot bestanden en mappen gebeurt via het web. 
 Het Azure Services Platform gebruikt een aangepast besturingssysteem Microsoft Azure om een cluster van servers te beheren die in het datacenter van Microsoft staan.
+
+# Alternatieven
+## https://koding.com
+Dit platform levert een "one-click" solution waar je een gratis één ubuntu server kan krijgen.
+ * Het goede aan deze service is dat je ze kan gebruiken zonder dat je een kredietkaart hebt.
+ * Het slechte aan deze keuze is dat het eigenlijk gewoon een extra GUI/webinterface rondom Amazon webservices is.
