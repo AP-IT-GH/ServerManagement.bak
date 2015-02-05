@@ -1,7 +1,14 @@
 # Google could platform
 
 ## Registratie Google could platform
+Maak een account aan via:
  * https://cloud.google.com/compute/docs/signup
+
+Om de gratis VM instances te activeren moet je een kredietkaart hebben.
+
+Moest je daar niet over beschikken kan je voor 5 euro een virtuele pre-paid krediekaart aanvragen op onderstaande website.
+ * https://www.entropay.com (opladen vanaf 5 euro)
+ * https://vikingcard.com/nl/ (aanvragen van de kaart kost 4.90 euro, mogelijk kan je zonder geld op de kaart te zetten je account bij google activeren)
 
 ## 10 Minute demo: Setting up a webserver
 https://cloud.google.com/compute/docs/quickstart

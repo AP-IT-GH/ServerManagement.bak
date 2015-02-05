@@ -12,8 +12,8 @@ http://nl.wikipedia.org/wiki/Cloud_computing
 
 De belangrijkste spelers zijn: Amazon, Google en Microsoft
  * http://aws.amazon.com, http://en.wikipedia.org/wiki/Amazon_Web_Services (12 maanden gratis, kredietkaart nodig)
- * https://cloud.google.com, http://en.wikipedia.org/wiki/Google_Cloud_Platform (60 dagen gratis)
- * http://azure.microsoft.com/en-us/, http://nl.wikipedia.org/wiki/Windows_Azure (1 maand gratis)
+ * https://cloud.google.com, http://en.wikipedia.org/wiki/Google_Cloud_Platform (60 dagen gratis, kredietkaart nodig)
+ * http://azure.microsoft.com/en-us/, http://nl.wikipedia.org/wiki/Windows_Azure (1 maand gratis, kredietkaart nodig)
 
 http://cloudacademy.com/blog/google-cloud-vs-aws-a-comparison/
 
