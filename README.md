@@ -1,4 +1,4 @@
 # Server Management
 
- * [Inleiding](intro.md)
+ * [Inleiding](inleiding.md)
  * [Sessie 1](sessie1.md)
