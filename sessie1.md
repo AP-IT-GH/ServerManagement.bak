@@ -5,10 +5,14 @@ Maak een account aan via:
  * https://cloud.google.com/compute/docs/signup
 
 Om de gratis VM instances te activeren moet je een kredietkaart hebben.
-
-Moest je daar niet over beschikken kan je voor 5 euro een virtuele pre-paid krediekaart aanvragen op onderstaande website.
+Moest je daar niet over beschikken kan je voor ongeveer 5 euro een virtuele pre-paid krediekaart aanvragen op één van onderstaande websites.
  * https://www.entropay.com (opladen vanaf 5 euro)
  * https://vikingcard.com/nl/ (aanvragen van de kaart kost 4.90 euro, mogelijk kan je zonder geld op de kaart te zetten je account bij google activeren)
+ * http://www.bpost.be/site/nl/residential/finance/bpaid/
+
+Meer info:
+ * http://www.kredietkaartvergelijking.be/prepaid-kredietkaart/
+ * http://www.prepaidkredietkaart.be/
 
 ## 10 Minute demo: Setting up a webserver
 https://cloud.google.com/compute/docs/quickstart
