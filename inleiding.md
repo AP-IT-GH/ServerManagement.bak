@@ -39,8 +39,8 @@ GCE users need to get authenticated based on OAuth 2.0 before launching the VMs.
 Google Compute Engine can be accessed via the Developer Console, RESTful API or Command Line Interface.
 
 ## Microsoft Azure
-http://azure.microsoft.com/en-us/
-http://en.wikipedia.org/wiki/Microsoft_Azure
+ * http://azure.microsoft.com/en-us/
+ * http://en.wikipedia.org/wiki/Microsoft_Azure
 
 Microsoft Azure Platform (voorheen: Windows Azure Platform) is een cloud computing-platform van Microsoft waarmee een aantal internetdiensten aangeboden kan worden via het internet of binnen de omgeving van het eigen bedrijf. 
 Microsoft wil hiermee de concurrentie aangaan met andere cloudsystemen die software as a service (SaaS) aanbieden, zoals Google App Engine van Google en EC2 van Amazon. 
