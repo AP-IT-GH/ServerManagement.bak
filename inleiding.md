@@ -49,6 +49,6 @@ Het Azure Services Platform gebruikt een aangepast besturingssysteem Microsoft A
 
 # Alternatieven
 ## https://koding.com
-Dit platform levert een "one-click" solution waar je een gratis één ubuntu server kan krijgen.
- * Het goede aan deze service is dat je ze kan gebruiken zonder dat je een kredietkaart hebt.
- * Het slechte aan deze keuze is dat het eigenlijk gewoon een extra GUI/webinterface rondom Amazon webservices is.
+Dit platform levert een "one-click" solution waar je een gratis één Ubuntu server kan krijgen.
+ * Het goede aan dit platform is dat je ze kan gebruiken zonder dat je een kredietkaart hebt.
+ * Het slechte aan dit platform is dat het eigenlijk gewoon een extra GUI/webinterface/tooling rondom Amazon webservices is, waardoor een aantal tools reeds geïnstalleerd zijn en sommige zaken misschien afwijken van de default instellingen bij Amazon & Google.
