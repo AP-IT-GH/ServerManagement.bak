@@ -1,4 +1,4 @@
-# Google could platform
+# Basis webserver
 
 ## Registratie Koding.com
 Maak een account aan op de website: "koding.com" (moest je dat nog niet gedaan hebben in opgave 1)
