@@ -43,6 +43,3 @@ Screenshots met onderstaande gegevens en een kort woordje uitleg om toe te licht
  * De drie websites
 
 De upload link kan je op Blackboard terugvinden.
-
-# Documentatie
- * https://cloud.google.com/compute/docs/overview
