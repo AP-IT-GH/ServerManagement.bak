@@ -7,7 +7,7 @@ Maak een account aan via:
 Om de gratis VM instances te activeren moet je een kredietkaart hebben.
 Moest je daar niet over beschikken kan je voor ongeveer 5 euro een virtuele pre-paid kredietkaart aanvragen op één van onderstaande websites.
  * https://www.entropay.com (opladen vanaf 5 euro)
- * https://vikingcard.com/nl/ (aanvragen van de kaart kost 4.90 euro, mogelijk kan je zonder geld op de kaart te zetten je account bij google activeren)
+ * https://vikingcard.com/nl/ (aanvragen van de kaart kost 4.90 euro, mogelijk kan je zonder geld op de kaart te zetten je account bij google activeren) (**Update:** ik heb na les 1 geprobeerd om een tweede Google Cloud services account voor mezelf aan te maken met een 'vikingcard', maar deze kaart werd niet geaccepteerd door Google. Mogelijk/hopelijk hadden anderen meer succes.)
  * http://www.bpost.be/site/nl/residential/finance/bpaid/
 
 Meer info:
@@ -34,6 +34,9 @@ Stuur één screenshot met volgende gegevens
  * Webbrowser die aantoont dat mysql werkt: http://adamish.com/blog/archives/110
 
 De upload link kan je op Blackboard terugvinden.
+
+**Update:** Als je geen Google Cloud account kan aanmaken omwille van kredietkaartproblemen dan mag je deze oefening ook uitvoeren via de website: "www.koding.com" ([zie inleiding](inleiding.md))
+
 
 # Documentatie
  * https://cloud.google.com/compute/docs/overview
