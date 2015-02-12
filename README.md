@@ -5,7 +5,7 @@ Website voor het vak "Server Management" aan de Artesis Plantijn Hogeschool Antw
 ## Inhoud
  * [Inleiding](inleiding.md)
  * [Sessie 1](sessie1.md)
-
+ * [Sessie 2](sessie2.md)
 
 ## Topics die later nog verschijnen:
  * Webservers
