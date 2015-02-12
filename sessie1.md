@@ -25,7 +25,12 @@ Installeer een volledige LAMP stack: Linux, the Apache HTTP Server, the MySQL re
 
  * https://cloud.google.com/compute/docs/tutorials/lamp/setup-lamp
  * http://en.wikipedia.org/wiki/LAMP_%28software_bundle%29
- 
+
+Info over MySQL:
+ * http://learn.koding.com/guides/installing-mysql/
+ * http://learn.koding.com/guides/using-mysql/
+ * http://learn.koding.com/guides/install-phpmyadmin/
+
 ## Opgave & evaluatie
 Stuur één screenshot met volgende gegevens
  * "htop" output van je server
