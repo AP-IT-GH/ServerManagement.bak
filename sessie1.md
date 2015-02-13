@@ -8,7 +8,7 @@ Om de gratis VM instances te activeren moet je een kredietkaart hebben.
 Moest je daar niet over beschikken kan je voor ongeveer 5 euro een virtuele pre-paid kredietkaart aanvragen op één van onderstaande websites.
  * https://www.entropay.com (opladen vanaf 5 euro)
  * https://vikingcard.com/nl/ (aanvragen van de kaart kost 4.90 euro, mogelijk kan je zonder geld op de kaart te zetten je account bij google activeren) (**Update:** ik heb na les 1 geprobeerd om een tweede Google Cloud services account voor mezelf aan te maken met een 'vikingcard', maar deze kaart werd niet geaccepteerd door Google. Mogelijk/hopelijk hadden anderen meer succes.)
- * http://www.bpost.be/site/nl/residential/finance/bpaid/
+ * http://www.bpost.be/site/nl/residential/finance/bpaid
 
 Meer info:
  * http://www.kredietkaartvergelijking.be/prepaid-kredietkaart/
@@ -32,8 +32,8 @@ Info over MySQL:
  * http://learn.koding.com/guides/install-phpmyadmin/
 
 ## Opgave & evaluatie
-Stuur één screenshot met volgende gegevens
- * "htop" output van je server
+Screenshots met onderstaande gegevens en een kort woordje uitleg om toe te lichten wat er in de screenshot te zien is.
+ * "htop" output van je server (http://hisham.hm/htop)
  * Webbrowser die een html webpagina op de server toont
  * Webbrowser die de output van de php functie "phpinfo" toont
  * Webbrowser die aantoont dat mysql werkt: http://adamish.com/blog/archives/110
