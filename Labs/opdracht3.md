@@ -48,7 +48,10 @@ Zorg er voor dat je machine niet wordt afgesloten door het volgende script in ee
 ## DOS aanval
 Werk met drie personen samen om een DOS aanval uit te voeren op één van je Apache servers.
 Zorg er zo veel gelijktijdige dataconnecties naar de webserver worden geopend dat hij geen extra connecties meer zal toelaten.
-Het gevolgd zal zijn dat de target server niet meer bereikbaar is.
+Het gevolg zal zijn dat de target server niet meer bereikbaar is.
+
+Stel de target server zelf in om relatief gevoelig te zijn voor DOS aanvallen. (limiteer het maximaal aantal gelijktijdige connecties)
+Indien je dit niet doet zou het kunnen dat de Amazon/Koding.com firewall je DOS aanval zullen detecteren.
 
 
 ## Verslag & evaluatie
@@ -56,5 +59,6 @@ Screenshots met onderstaande gegevens en een kort woordje uitleg om toe te licht
  * Antwoorden op de vragen i.v.m. logbestanden (licht voor elke regel in twee zinnen toe waar de informatie staat en hoe je deze kan interpreteren)
  * Screenshot van htop en iftop met CPU/RAM/netwerk load
  * Screenshot van Nagios en iftop met CPU/RAM/netwerk load
-
+ * Screenshots die aantonen dat de DOS aanval gelukt is.
+ 
 De upload link kan je op Blackboard terugvinden.
