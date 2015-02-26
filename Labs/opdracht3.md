@@ -53,7 +53,7 @@ Hierdoor worden alle bestanden van de Github repository op je server gezet.
 Om deze bestanden later te updaten voer je het commando "git pull" uit. (in de "ServerManagement" folder)
 
 ## Logging tools
-Installeer Nagios en maak grafieken van:
+Installeer Cacti en maak grafieken van:
  * CPU gebruik
  * RAM gebruik
  * Internet trafiek
