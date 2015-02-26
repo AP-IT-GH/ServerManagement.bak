@@ -33,11 +33,11 @@ Moesten deze events nog niet zijn opgetreden, doe dit dan even zelf of vraag aan
 Installeer Cacti en maak grafieken van:
  * CPU gebruik
  * RAM gebruik
- * Internet traffiek
+ * Internet trafiek
 
 Genereer zelf een aantal events zodat de grafieken nuttige informatie tonen.
  * Verhoog CPU/RAM gebruik door een programma te draaien dat de CPU/RAM zwaar belast [cpu.py](/Software/cpu.py), [ram.py](/Software/ram.py)
- * Genereer internet traffiek door bestanden te downloaden. [download.py](/Software/download.py)
+ * Genereer internet trafiek door bestanden te downloaden. [download.py](/Software/download.py)
 
 ## Monitoring tools
 
