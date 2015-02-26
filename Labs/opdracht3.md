@@ -80,6 +80,10 @@ Het gevolg zal zijn dat de target server niet meer bereikbaar is.
 Stel de target server zelf in om relatief gevoelig te zijn voor DOS aanvallen. (limiteer het maximaal aantal gelijktijdige connecties)
 Indien je dit niet doet zou het kunnen dat de Amazon/Koding.com firewall je DOS aanval zullen detecteren.
 
+Gebruik volgende tools:
+ * [download.py](/Software/download.py)
+ * [dos.py](/Software/dos.py)
+ * https://github.com/evert/slowdeath
 
 ## Verslag & evaluatie
 Screenshots met onderstaande gegevens en een kort woordje uitleg om toe te lichten wat er in de screenshot te zien is.
