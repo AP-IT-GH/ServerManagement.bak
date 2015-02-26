@@ -29,23 +29,32 @@ Moesten deze events nog niet zijn opgetreden, doe dit dan even zelf of vraag aan
  * Wanneer is de laatste login via ssh gebeurd?
  * Zijn er al pogingen tot inbraak op je systeem via ssh opgetreden? (een 'onbekende' die probeert je wachtwoord te raden)
 
-## Logging tools
-Installeer Cacti en maak grafieken van:
- * CPU gebruik
- * RAM gebruik
- * Internet trafiek
+## Live Monitoring tools
+Installeer "htop", "iftop" en bekijk de activiteit van je systeem.
 
 Genereer zelf een aantal events zodat de grafieken nuttige informatie tonen.
  * Verhoog CPU/RAM gebruik door een programma te draaien dat de CPU/RAM zwaar belast [cpu.py](/Software/cpu.py), [ram.py](/Software/ram.py)
  * Genereer internet trafiek door bestanden te downloaden. [download.py](/Software/download.py)
 
-## Monitoring tools
+## Logging tools
+Installeer Nagios en maak grafieken van:
+ * CPU gebruik
+ * RAM gebruik
+ * Internet trafiek
+
+Zorg er voor dat de grafieken voldoende informatie tonen.
+Zorg er voor dat je machine niet wordt afgesloten door het volgende script in een aparte tab uit te voeren in de web interface. [awake.py](/Software/awake.py)
+
+## DOS aanval
+Werk met drie personen samen om een DOS aanval uit te voeren op één van je Apache servers.
+Zorg er zo veel gelijktijdige dataconnecties naar de webserver worden geopend dat hij geen extra connecties meer zal toelaten.
+Het gevolgd zal zijn dat de target server niet meer bereikbaar is.
+
 
 ## Verslag & evaluatie
 Screenshots met onderstaande gegevens en een kort woordje uitleg om toe te lichten wat er in de screenshot te zien is.
  * Antwoorden op de vragen i.v.m. logbestanden (licht voor elke regel in twee zinnen toe waar de informatie staat en hoe je deze kan interpreteren)
- * Werkende SSH toegang
- * Werkende FTP toegang
- * De drie websites
+ * Screenshot van htop en iftop met CPU/RAM/netwerk load
+ * Screenshot van Nagios en iftop met CPU/RAM/netwerk load
 
 De upload link kan je op Blackboard terugvinden.
