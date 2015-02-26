@@ -40,7 +40,7 @@ Genereer zelf een aantal events zodat de grafieken nuttige informatie tonen.
 Download de bestanden naar je server m.b.v. het "wget" commando. (https://www.gnu.org/software/wget)
 Om een directe link naar de Python bestanden te krijgen klik je op de knop "RAW" op de Github paga.
 
-Bijvoorbeeld: "wget https://raw.githubusercontent.com/AP-Elektronica-ICT/ServerManagement/master/Software/cpu.py"
+Commando: "wget https://raw.githubusercontent.com/AP-Elektronica-ICT/ServerManagement/master/Software/cpu.py"
 
 ### Optie 2: download all bestanden tegelijk via git
 Je kan ook meteen alle bestanden naar je server downloaden door gebruik te maken van git. (http://git-scm.com)
@@ -48,7 +48,7 @@ Je kan ook meteen alle bestanden naar je server downloaden door gebruik te maken
 Commando: "git clone https://github.com/AP-Elektronica-ICT/ServerManagement.git"
 
 Hierdoor worden alle bestanden van de Github repository op je server gezet.
-Om deze bestanden later te update voer je het commando "git pull" uit. (in de "ServerManagement" folder)
+Om deze bestanden later te updaten voer je het commando "git pull" uit. (in de "ServerManagement" folder)
 
 ## Logging tools
 Installeer Nagios en maak grafieken van:
