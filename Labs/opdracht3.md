@@ -21,7 +21,15 @@ Als je systeem al een langere tijd actief is zullen er gecomprimeerde archieven 
 Meer info:
  * https://help.ubuntu.com/community/LinuxLogFiles
  * http://askubuntu.com/questions/186276/where-are-all-the-major-log-files-located
+
+Bestanden bekijken:
+ * "nano" open een bestand in een teksteditor (dit is meestal niet wat je wil wanneer je logfiles bekijkt)
+ * "cat" print de volledige inhoud van een logfile af (dit werkt nu, maar als je logbestand zeer groot is zal dit zeer lang duren)
+ * "tail" print de laatste 10 regels van een bestand af
+ * "grep" filter de output van cat (of tail) om te zoeken naar een bepaalde string.
  
+Voorbeeld: "cat /var/log/apache2/access.log | grep 'Mozilla'"
+
 Zoek volgende informatie op in de logbestanden van je server.
 Moesten deze events nog niet zijn opgetreden, doe dit dan even zelf of vraag aan een collega student om dit voor je te doen.
  * Wie heeft je website bezocht? (wanneer?, welke pagina's)
@@ -37,6 +45,7 @@ Genereer zelf een aantal events zodat de grafieken nuttige informatie tonen.
  * Genereer internet trafiek door bestanden te downloaden. [download.py](/Software/download.py)
  
 Uitvoeren van de python code -> commando: "python cpu.py"
+Python programma afsluiten: "ctrl-c"
 
 ### Optie 1: download bestanden apart via wget
 Download de bestanden naar je server m.b.v. het "wget" commando. (https://www.gnu.org/software/wget)

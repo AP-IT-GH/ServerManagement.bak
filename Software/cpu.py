@@ -6,6 +6,6 @@
 import time
 
 while True:
-	""" Do nothing in an infinte loop -> causes 100% CPU load"""
+	""" Do nothing in an infinite loop -> causes 100% CPU load"""
 	pass
 	#time.sleep(0.000001) # you can lower the load by adding some sleep
