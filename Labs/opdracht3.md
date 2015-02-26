@@ -53,7 +53,7 @@ Hierdoor worden alle bestanden van de Github repository op je server gezet.
 Om deze bestanden later te updaten voer je het commando "git pull" uit. (in de "ServerManagement" folder)
 
 ## Logging tools
-Installeer Cacti en maak grafieken van:
+Installeer Cacti/RRDtool en maak grafieken van onderstaande gegevens. 
  * CPU gebruik
  * RAM gebruik
  * Internet trafiek
@@ -61,6 +61,7 @@ Installeer Cacti en maak grafieken van:
 Zorg er voor dat de grafieken voldoende informatie tonen.
 Zorg er voor dat je machine niet wordt afgesloten door het volgende script in een aparte tab uit te voeren in de web interface. [awake.py](/Software/awake.py)
 
+Meer info: http://www.cacti.net
 ## DOS aanval
 Werk met drie personen samen om een DOS aanval uit te voeren op één van je Apache servers.
 Zorg er zo veel gelijktijdige dataconnecties naar de webserver worden geopend dat hij geen extra connecties meer zal toelaten.
