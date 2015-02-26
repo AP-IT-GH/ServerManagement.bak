@@ -5,6 +5,7 @@
 
 import time
 import urllib
+import os
 
 attempts = 0
 limit = 1000
@@ -15,7 +16,8 @@ while attempts < limit:
 	try:
 		#urllib.urlretrieve("http://google.com/index.html", filename="index.html")
 		urllib.urlretrieve("http://localhost", filename="index.html")
-		#time.sleep(0.1) # you can lower the load by adding some sleep time
+		os.remove("index.html")
+		time.sleep(0.1) # you can lower the load by adding some sleep time
 		print(attempts)
 	except urllib.URLError as e:
 		print type(e)
