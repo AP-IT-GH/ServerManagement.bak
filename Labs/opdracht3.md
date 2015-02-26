@@ -35,6 +35,8 @@ Installeer "htop", "iftop" en bekijk de activiteit van je systeem.
 Genereer zelf een aantal events zodat de grafieken nuttige informatie tonen.
  * Verhoog CPU/RAM gebruik door een programma te draaien dat de CPU/RAM zwaar belast [cpu.py](/Software/cpu.py), [ram.py](/Software/ram.py)
  * Genereer internet trafiek door bestanden te downloaden. [download.py](/Software/download.py)
+ 
+Uitvoeren van de python code -> commando: "python cpu.py"
 
 ### Optie 1: download bestanden apart via wget
 Download de bestanden naar je server m.b.v. het "wget" commando. (https://www.gnu.org/software/wget)
