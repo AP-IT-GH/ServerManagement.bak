@@ -27,6 +27,7 @@ Bestanden bekijken:
  * "cat" print de volledige inhoud van een logfile af (dit werkt nu, maar als je logbestand zeer groot is zal dit zeer lang duren)
  * "tail" print de laatste 10 regels van een bestand af
  * "grep" filter de output van cat (of tail) om te zoeken naar een bepaalde string.
+ * Sommige logbestanden mag je als normale user niet bekijken. (met "sudo su" kan je snel als root user de bestanden bekijken)
  
 Voorbeeld: "cat /var/log/apache2/access.log | grep 'Mozilla'"
 
