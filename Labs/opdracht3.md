@@ -36,8 +36,8 @@ Installeer Cacti en maak grafieken van:
  * Internet traffiek
 
 Genereer zelf een aantal events zodat de grafieken nuttige informatie tonen.
- * Verhoog CPU/RAM gebruik door een programma te draaien dat de CPU/RAM zwaar belast [cpu.py!](Software/cpu.py), [ram.py!](Software/ram.py)
- * Genereer internet traffiek door bestanden te downloaden. [download.py!](Software/download.py)
+ * Verhoog CPU/RAM gebruik door een programma te draaien dat de CPU/RAM zwaar belast [cpu.py](/Software/cpu.py), [ram.py](/Software/ram.py)
+ * Genereer internet traffiek door bestanden te downloaden. [download.py](/Software/download.py)
 
 ## Monitoring tools
 
