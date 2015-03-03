@@ -4,7 +4,7 @@
 Maak een account aan via:
  * https://cloud.google.com/compute/docs/signup
 
-# Documentatie
+Documentatie
  * https://cloud.google.com/compute/docs/overview
 
 Om de gratis VM instances te activeren moet je een kredietkaart hebben.
