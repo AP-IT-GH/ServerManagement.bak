@@ -3,10 +3,11 @@
 Website voor het vak "Server Management" aan de Artesis Plantijn Hogeschool Antwerpen.
 
 ## Inhoud
- * [Inleiding](Labs/inleiding.md)
- * [Opdracht 1](Labs/opdracht1.md)
- * [Opdracht 2](Labs/opdracht2.md)
- * [Opdracht 3](Labs/opdracht3.md)
+ * [Inleiding](/Labs/inleiding.md)
+ * [Opdracht 1: inleiding](/Labs/opdracht1.md)
+ * [Opdracht 2: basis webserver](/Labs/opdracht2.md)
+ * [Opdracht 3: monitoring en logging](/Labs/opdracht3.md)
+ * [Opdracht 4: data management en backup](/Labs/opdracht4.md)
  
 ## Topics die later nog verschijnen:
  * Webservers
