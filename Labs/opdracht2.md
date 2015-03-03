@@ -3,6 +3,21 @@
 ## Registratie Koding.com
 Maak een account aan op de website: "koding.com" (moest je dat nog niet gedaan hebben in opgave 1)
 
+## Updates
+Installeer alle beschikbare updates voor de reeds geïnstalleerde software packages op je systeem:
+ * ``aptitude update``
+ * ``aptitude upgrade``
+
+Doe dit best bij aanvang van elk labo en ook steeds wanneer je software installeert.
+Hierdoor voorkom je eventuele problemen veroorzaakt door conflicterende software versies.
+
+### dpkg-reconfigure
+Indien je problemen tegenkoment omdat een bepaalde package niet correct geinstalleerd is kan je deze met dpkg-reconfigure oplossen.
+Dit is nodig wanneer de package manager is in een error-state afgesloten werd.
+
+Meer info:
+ * http://www.linux-magazine.com/Issues/2013/155/Command-Line-dpkg-reconfigure
+
 ## Firewall
 Installeer en configureer de firewall op je machine: http://learn.koding.com/guides/enable-ufw/
 
