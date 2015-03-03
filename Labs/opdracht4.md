@@ -33,15 +33,12 @@ Maak een shell script dat je aanroept via cron om deze backup iedere 10 minuten 
 
 Werking script:
  * aanmaken archiefbestand
- * archiefbestand versturen naar backup server
+ * archiefbestand versturen naar "backup server"
 
 Meer info:
  * http://linux.die.net/man/1/rsync
  * http://www.thegeekstuff.com/2008/11/3-steps-to-perform-ssh-login-without-password-using-ssh-keygen-ssh-copy-id/
  * http://www.cyberciti.biz/faq/how-do-i-add-jobs-to-cron-under-linux-or-unix-oses/
-
-
-
  
 ## Verslag & evaluatie
 Screenshots met onderstaande gegevens en een kort woordje uitleg om toe te lichten wat er in de screenshot te zien is.
