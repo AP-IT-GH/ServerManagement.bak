@@ -35,6 +35,19 @@ Log op je server in via secure shell: http://learn.koding.com/guides/ssh-into-yo
 
 Gebruik hiervoor Cygwin of MobaXterm.
 
+### Concept:
+1. De persoon die wil inloggen maakt d.m.v. ``ssh-keygen -t rsa`` de benodigde toegangssleutels aan. 
+Het is belangrijk dat dit gebeurt op de plek van waar je naar een ander systeem wil inloggen.
+In dit geval dus op je lokale PC. (onder Windows uitvoeren in een MobaXterm of Cygwin console)
+
+2. Voeg deze key toe aan de ``authorized_keys`` op de server.
+Het is belangrijk dat deze file in de .ssh folder van de server user waarmee je wil inloggen staat.
+Je kan voor elke user op de server een apart ``authorized_keys`` bestand aanmaken.
+
+
+ 
+
+
 ## 2.4. FTP: ProFTPd
 Installeer ProFTPd met behulp van apt-get: http://learn.koding.com/guides/setting-up-ftp-on-koding/
  * Maak drie user accounts aan om via FTP bestanden te uploaden: 'blog', 'tandarts', 'webshop'
