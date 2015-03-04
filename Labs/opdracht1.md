@@ -28,6 +28,13 @@ Installeer een volledige LAMP stack: Linux, the Apache HTTP Server, the MySQL re
 
  * https://cloud.google.com/compute/docs/tutorials/lamp/setup-lamp
  * http://en.wikipedia.org/wiki/LAMP_%28software_bundle%29
+ 
+### MySQL root vs system root
+Bij de installatie van MySQL krijg je de vraag om het MySQL root paswoord in te stellen.
+Deze "mysql root" user is niet je "root systeemuser" maar slechts de beheerder van alle MySQL databanken.
+Je kan dus best twee verschillende paswoorden nemen voor deze twee accounts.
+Het is belangrijk dat je dit paswoord ook onthoudt.
+
 
 Info over MySQL:
  * http://learn.koding.com/guides/installing-mysql/

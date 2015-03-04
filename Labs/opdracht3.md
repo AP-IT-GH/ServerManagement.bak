@@ -66,7 +66,6 @@ Om deze bestanden later te updaten voer je het commando ``git pull`` uit. (in de
 Installeer Cacti/RRDtool en maak grafieken van onderstaande gegevens. 
  * CPU gebruik
  * RAM gebruik
- * Internet trafiek
 
 Zorg er voor dat de grafieken voldoende informatie tonen.
 Zorg er voor dat je machine niet wordt afgesloten door het volgende script in een aparte tab uit te voeren in de web interface. [awake.py](/Software/awake.py)
