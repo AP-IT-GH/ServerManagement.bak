@@ -67,8 +67,17 @@ Installeer Cacti/RRDtool en maak grafieken van onderstaande gegevens.
  * CPU gebruik
  * RAM gebruik
 
+Na de installatie van het "cacti" pakket kan je de website openen via "http://uwdomeinnaam/cacti"
+De eerste keer zal daar een installatie wizard verschijnen.
+
+De standaard credentials om deze wizard uit te voeren zijn:
+ * username: admin
+ * paswoord: admine
+
 Zorg er voor dat de grafieken voldoende informatie tonen.
 Zorg er voor dat je machine niet wordt afgesloten door het volgende script in een aparte tab uit te voeren in de web interface. [awake.py](/Software/awake.py)
+
+
 
 Meer info: 
  * http://www.cacti.net
@@ -80,6 +89,9 @@ Het gevolg zal zijn dat de target server niet meer bereikbaar is.
 
 Stel de target server zelf in om relatief gevoelig te zijn voor DOS aanvallen. (limiteer het maximaal aantal gelijktijdige connecties)
 Indien je dit niet doet zou het kunnen dat de Amazon/Koding.com firewall je DOS aanval zullen detecteren.
+
+Installeer volgende apache2 package om meer instellingen i.v.m. bandbreedte mogelijk te maken.
+ * libapache2-mod-bw
 
 Gebruik volgende tools:
  * [download.py](/Software/download.py)
