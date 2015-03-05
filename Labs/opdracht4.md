@@ -6,7 +6,7 @@ Maak vier tar archiefbestanden met daarin alle bestanden die in de volgende fold
  *  ``/usr/bin``
  *  ``/usr/src``
  
-Gebruik telkens een andere compressiemethode
+Gebruik telkens een andere compressiemethode (pas hiervoor de nodige flags in je commando aan)
  * geen compressie
  * gzip compressie
  * bzip2 compressie
@@ -29,21 +29,46 @@ Vraag om een user account op de server van een klasgenoot. Dit is de "backup ser
 
 Kopieer je kleinste archiefbestand naar je "backup server" m.b.v. rsync.
 
+Hiervoor heb je een account op de target server nodig.
+Vraag dus aan je klasgenoot om een extra account voor je op zijn/haar server aan te maken.
+
 Maak een shell script dat je aanroept via cron om deze backup iedere 10 minuten automatisch uit te voeren.
 
 Werking script:
  * aanmaken archiefbestand
  * archiefbestand versturen naar "backup server"
+ * archiefbestand terug wissen op je eigen systeem
 
 Meer info:
  * http://linux.die.net/man/1/rsync
  * http://www.thegeekstuff.com/2008/11/3-steps-to-perform-ssh-login-without-password-using-ssh-keygen-ssh-copy-id/
  * http://www.cyberciti.biz/faq/how-do-i-add-jobs-to-cron-under-linux-or-unix-oses/
- 
+
+## 4.3. Syslog reporting
+
+Schrijf de status van je backup weg naar de systeemlog. (``/var/log/messages``)
+
+Voorbeeld: 
+ * ``Wed  5 12:07:10 myservername logger: MyBackupScript Backup finished: file size 34 MB, duration 0m3.747s``
+ * ``Wed  5 12:15:10 myservername logger: MyBackupScript Backup failed``
+
+Laat je backup falen:
+ * doord er voor te zorgen dat je geen backupbestand kan wegschrijven op je eigen server. Een snelle manier om dat te doen is door tijdelijk geen write rechten te geven aan jezelf.
+ * door naar een onbestaande/onbeschikbare server een backup te maken.
+
+Meer info:
+ * http://www.cyberciti.biz/tips/howto-linux-unix-write-to-syslog.html
+
+### 4.4 E-Mail reporting
+Stuur de inhoud van de laatste 10 lijnen in de syslog (``/var/log/messages``) via e-mail naar jezelf wanneer de backup faalt.
+
+Meer info:
+ * http://bernaerts.dyndns.org/linux/75-debian/278-debian-sendmail-gmail-account
+ * http://learn.koding.com/guides/enable-php-mail-function/
+
 ## Verslag & evaluatie
 Screenshots met onderstaande gegevens en een kort woordje uitleg om toe te lichten wat er in de screenshot te zien is.
  * Antwoorden op de vragen i.v.m. gecomprimeerde archieven
- * Shell script voor opgave 2
- * Screenshots + een woordje uitleg over opgave 2
+ * Shell script, screenshots + een woordje uitleg voor opgave 4.2, 4.3 en 4.4
  
 De upload link kan je op Blackboard terugvinden.
