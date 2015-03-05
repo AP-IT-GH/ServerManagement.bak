@@ -102,7 +102,7 @@ Gebruik volgende tools:
 Screenshots met onderstaande gegevens en een kort woordje uitleg om toe te lichten wat er in de screenshot te zien is.
  * Antwoorden op de vragen i.v.m. logbestanden (licht voor elke regel in twee zinnen toe waar de informatie staat en hoe je deze kan interpreteren)
  * Screenshot van htop en iftop met CPU/RAM/netwerk load
- * Screenshot van Nagios en iftop met CPU/RAM/netwerk load
+ * Screenshot van Cacti met CPU/RAM load
  * Screenshots die aantonen dat de DOS aanval gelukt is.
  
 De upload link kan je op Blackboard terugvinden.

@@ -43,8 +43,7 @@ Meer info:
 ## Verslag & evaluatie
 Screenshots met onderstaande gegevens en een kort woordje uitleg om toe te lichten wat er in de screenshot te zien is.
  * Antwoorden op de vragen i.v.m. gecomprimeerde archieven
- * Screenshot van htop en iftop met CPU/RAM/netwerk load
- * Screenshot van Nagios en iftop met CPU/RAM/netwerk load
- * Screenshots die aantonen dat de DOS aanval gelukt is.
+ * Shell script voor opgave 2
+ * Screenshots + een woordje uitleg over opgave 2
  
 De upload link kan je op Blackboard terugvinden.
