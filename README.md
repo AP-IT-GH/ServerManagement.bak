@@ -14,5 +14,6 @@ Website voor het vak "Server Management" aan de Artesis Plantijn Hogeschool Antw
  * [Blackboard cursus (login nodig) ] (https://blackboard.ap.be/webapps/blackboard/execute/announcement?method=search&context=course_entry&course_id=_10405_1)
 
 ### Contact:
- * Jeroen Doggen <jeroen.doggen@ap.be>
+ * [Jeroen Doggen (e-mail)] (jeroen.doggen@ap.be)
+ * [Jeroen Doggen (Github)] (https://github.com/jeroendoggen)
  * http://eaict.ap.be/
