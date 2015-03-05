@@ -10,7 +10,7 @@ Gebruik telkens een andere compressiemethode (pas hiervoor de nodige flags in je
  * geen compressie
  * gzip compressie
  * bzip2 compressie
- * LZMA2 compressie
+ * LZMA2/XZ compressie
 
 Vergelijk voor deze archieven de volgende eigenschappen:
  * compressieratio
@@ -24,6 +24,7 @@ Meer info:
  * http://linux.die.net/man/1/time
  * http://linux.die.net/man/1/du
  * http://linux.die.net/man/1/df
+ * http://tukaani.org/xz/
 
 ## 4.2. Off-site backup
 Vraag om een user account op de server van een klasgenoot. Dit is de "backup server".
