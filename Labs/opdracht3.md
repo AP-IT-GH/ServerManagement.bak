@@ -72,7 +72,7 @@ De eerste keer zal daar een installatie wizard verschijnen.
 
 De standaard credentials om deze wizard uit te voeren zijn:
  * username: admin
- * paswoord: admine
+ * paswoord: admin
 
 Zorg er voor dat de grafieken voldoende informatie tonen.
 Zorg er voor dat je machine niet wordt afgesloten door het volgende script in een aparte tab uit te voeren in de web interface. [awake.py](/Software/awake.py)
