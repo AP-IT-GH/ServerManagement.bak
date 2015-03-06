@@ -29,7 +29,7 @@ Meer info:
 ## 4.2. Off-site backup
 Vraag om een user account op de server van een klasgenoot. Dit is de "backup server".
 
-Kopieer je kleinste archiefbestand uit opgave 4.1 naar je "backup server" m.b.v. rsync.
+Kopieer je kleinste archiefbestand uit opgave 4.1 naar je "backup server" m.b.v. rsync (of scp).
 Hiervoor heb je een account op de target server nodig.
 Vraag dus aan je klasgenoot om een extra account voor je op zijn/haar server aan te maken.
 Deze user moet zonder paswoord via ssh kunnen inloggen op de backup server om de backup automatisch vanuit een script uit te kunnen voeren.
@@ -45,6 +45,7 @@ Meer info:
  * http://linux.die.net/man/1/rsync
  * http://www.thegeekstuff.com/2008/11/3-steps-to-perform-ssh-login-without-password-using-ssh-keygen-ssh-copy-id/
  * http://www.cyberciti.biz/faq/how-do-i-add-jobs-to-cron-under-linux-or-unix-oses/
+ * http://linux.die.net/man/1/scp
 
 ## 4.3. Syslog reporting
 
