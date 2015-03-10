@@ -51,7 +51,7 @@ Meer info:
 
 ## 4.3. Syslog reporting
 
-Schrijf de status van je backup weg naar de systeemlog. (``/var/log/messages``)
+Schrijf de status van je backup weg naar de systeemlog: ``/var/log/syslog`` (of ``/var/log/messages`` onder Debian en vele andere distributies)
 
 Voorbeeld: 
  * ``Wed  5 12:07:10 myservername logger: MyBackupScript Backup finished: file size 34 MB, duration 0m3.747s``
@@ -65,7 +65,7 @@ Meer info:
  * http://www.cyberciti.biz/tips/howto-linux-unix-write-to-syslog.html
 
 ### 4.4 E-Mail reporting
-Stuur de inhoud van de laatste 10 lijnen in de syslog (``/var/log/messages``) via e-mail naar jezelf wanneer de backup faalt.
+Stuur de inhoud van de laatste 10 lijnen in de syslog (``/var/log/syslog``) via e-mail naar jezelf wanneer de backup faalt.
 
 Meer info:
  * http://bernaerts.dyndns.org/linux/75-debian/278-debian-sendmail-gmail-account
