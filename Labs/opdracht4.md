@@ -17,7 +17,9 @@ Vergelijk voor deze archieven de volgende eigenschappen:
  * benodigde tijd om het bestand aan te maken
 
 Let op dat je filesystem niet voor 100% gevuld geraakt. 
-De beschikbare schijfruimte op je "koding.com" server is immers zeer beperkt. 
+De beschikbare schijfruimte op je "koding.com" server is immers zeer beperkt.
+
+Moest het langer dan 10 minuten duren om de gecomprimeerde bestanden aan te maken, dan mag je gerust enkele folders weglaten uit je archiefbestand. 
 
 Meer info:
  * http://linux.die.net/man/1/tar
@@ -29,7 +31,7 @@ Meer info:
 ## 4.2. Off-site backup
 Vraag om een user account op de server van een klasgenoot. Dit is de "backup server".
 
-Kopieer je kleinste archiefbestand uit opgave 4.1 naar je "backup server" m.b.v. rsync (of scp).
+Kopieer je kleinste archiefbestand uit opgave 4.1 naar je "backup server" m.b.v. rsync (of scp). (indien het aanmaken van het archiefbestand meer dan vijf minuten duurt mag je gerust enkele folders weglaten)
 Hiervoor heb je een account op de target server nodig.
 Vraag dus aan je klasgenoot om een extra account voor je op zijn/haar server aan te maken.
 Deze user moet zonder paswoord via ssh kunnen inloggen op de backup server om de backup automatisch vanuit een script uit te kunnen voeren.
